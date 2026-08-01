@@ -1,0 +1,23 @@
+{
+  "project": "SCHOLAFORGE",
+  "version": "15.0.0-CODE-MVP-3",
+  "code_folder": "CODE FOLDER",
+  "patent_folder": "PATTENT FOLDER",
+  "status": {
+    "finite_status": "AGENT_SCOPE_CODE_MVP3_SOFTWARE_PROVEN_EXTERNAL_BLOCKERS_OPEN",
+    "software_proven": true,
+    "production_approved": false,
+    "pilot_ready": false,
+    "filing_authorized": false,
+    "patent_granted": false,
+    "novelty_confirmed": false
+  },
+  "proven_invention_ids": [
+    "INV-TIM-001",
+    "INV-LIG-001",
+    "INV-RGC-001",
+    "INV-SAGA-001",
+    "INV-EVS-INS-001",
+    "INV-PIL-JUR-001"
+  ]
+}

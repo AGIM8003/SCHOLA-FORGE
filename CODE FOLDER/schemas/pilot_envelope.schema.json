@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ScholaForgePilotEnvelope/v1",
+  "type": "object",
+  "required": ["schema_id", "feature_id", "status", "capability_denylist"],
+  "properties": {
+    "schema_id": { "const": "ScholaForgePilotEnvelope/v1" },
+    "feature_id": { "const": "SF-PIL-001" },
+    "status": { "enum": ["DRAFT", "SIGNED", "SUSPENDED", "CLOSED"] },
+    "official_grade_replacement_allowed": { "const": false },
+    "cameras_allowed": { "const": false },
+    "production_activatable": { "const": false }
+  }
+}

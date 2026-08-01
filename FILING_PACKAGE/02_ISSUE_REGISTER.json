@@ -1,0 +1,18 @@
+{
+  "schema_id": "patentforge.schema.ISSUE_REGISTER.SCHOLA_FORGE.v1",
+  "issues": [
+    {
+      "id": "SF-001",
+      "severity": "HIGH",
+      "description": "No test suite \u2014 created as part of completeness fix",
+      "status": "FIXED"
+    },
+    {
+      "id": "SF-002",
+      "severity": "MEDIUM",
+      "description": "No prior art search performed",
+      "status": "OPEN"
+    }
+  ],
+  "created": "2026-07-23T12:27:21Z"
+}

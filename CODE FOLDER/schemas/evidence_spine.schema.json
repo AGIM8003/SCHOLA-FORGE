@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ScholaForgeEvidenceSpine/v1",
+  "type": "object",
+  "required": ["schema_id", "feature_id", "mode", "official_use_authorized"],
+  "properties": {
+    "schema_id": { "const": "ScholaForgeEvidenceSpine/v1" },
+    "feature_id": { "const": "SF-EVS-001" },
+    "mode": { "const": "SHADOW" },
+    "official_use_authorized": { "const": false }
+  }
+}

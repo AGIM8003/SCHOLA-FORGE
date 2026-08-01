@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "ScholaForge — Unified Explainable Benefit-for-All Education Platform"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Haxhijaha
+    given-names: Agim
+    orcid: "https://orcid.org/0009-0002-3234-7765"
+version: "14.0"
+date-released: "2026-07-23"
+license: "LicenseRef-Proprietary"
+doi: "PENDING"
+abstract: "An AI-powered education platform designed for equitable, explainable, and universally beneficial learning."

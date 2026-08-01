@@ -1,0 +1,23 @@
+{
+  "schema_id": "ScholaForgePublicDisclosureTimeline/v1",
+  "disclosure_id": "SYS-COMBO-001",
+  "status": "HUMAN_REVIEW_REQUIRED",
+  "filing_authorized": false,
+  "events": [
+    {
+      "date": "2026-07-20",
+      "event": "Internal CODE FOLDER MVP and PATTENT evidence pack created in private workspace",
+      "public": false,
+      "channels": ["local/Cursor workspace"],
+      "risk": "Internal only if access controlled"
+    },
+    {
+      "date": null,
+      "event": "Any prior public blog, repo, pitch, academic upload, or demo",
+      "public": null,
+      "status": "NOT_CONFIRMED — owner must complete"
+    }
+  ],
+  "grace_period_analysis": "NOT_PERFORMED",
+  "updated_at_utc": "2026-07-20T11:45:00.000Z"
+}

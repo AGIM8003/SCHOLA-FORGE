@@ -1,0 +1,10 @@
+{
+  "schema_id": "patentforge.schema.COUNSEL_QUESTIONS.SCHOLA_FORGE.v1",
+  "questions": [
+    "Is the adaptive learning mechanism patentable?",
+    "Filing jurisdiction recommendation?",
+    "Prior art risk assessment?",
+    "Claim scope recommendation?"
+  ],
+  "created": "2026-07-23T12:27:21Z"
+}

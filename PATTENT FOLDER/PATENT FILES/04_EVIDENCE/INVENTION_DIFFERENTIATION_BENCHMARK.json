@@ -1,0 +1,131 @@
+{
+  "schema_id": "ScholaForgeInventionDifferentiationBenchmark/v1",
+  "version": "15.0.0-CODE-MVP-5",
+  "scored_at_utc": "2026-07-31T19:41:03.837Z",
+  "method": "BODY_VS_BODY",
+  "canonical_disclosure": "SYS-COMBO-001",
+  "note": "Organ differentiators are subordinate organs of SYS-COMBO-001; not independent filing units.",
+  "inventions": [
+    {
+      "id": "INV-TIM-001",
+      "title": "Tutoring Integrity Mode with attempt-before-help and assistance receipts",
+      "feature_ids": [
+        "SF-TIM-001"
+      ],
+      "proven_count": 4,
+      "required_count": 4,
+      "complete": true,
+      "missing": [],
+      "patent_granted": false,
+      "novelty_confirmed": false,
+      "production_approved": false
+    },
+    {
+      "id": "INV-LIG-001",
+      "title": "Learning Independence / Cognitive Debt Gate",
+      "feature_ids": [
+        "SF-LIG-001"
+      ],
+      "proven_count": 3,
+      "required_count": 3,
+      "complete": true,
+      "missing": [],
+      "patent_granted": false,
+      "novelty_confirmed": false,
+      "production_approved": false
+    },
+    {
+      "id": "INV-RGC-001",
+      "title": "Governed educational retrieval (RFF-S / RRF / CRAG / RFF-F)",
+      "feature_ids": [
+        "SF-RGC-001"
+      ],
+      "proven_count": 4,
+      "required_count": 4,
+      "complete": true,
+      "missing": [],
+      "patent_granted": false,
+      "novelty_confirmed": false,
+      "production_approved": false
+    },
+    {
+      "id": "INV-SAGA-001",
+      "title": "MySAGA private twin with selective forget and no server profiling payload",
+      "feature_ids": [
+        "SF-SAGA-001"
+      ],
+      "proven_count": 3,
+      "required_count": 3,
+      "complete": true,
+      "missing": [],
+      "patent_granted": false,
+      "novelty_confirmed": false,
+      "production_approved": false
+    },
+    {
+      "id": "INV-EVS-INS-001",
+      "title": "Evidence Spine + INSIGHT shadow without official grade automation",
+      "feature_ids": [
+        "SF-EVS-001",
+        "SF-INS-001"
+      ],
+      "proven_count": 3,
+      "required_count": 3,
+      "complete": true,
+      "missing": [],
+      "patent_granted": false,
+      "novelty_confirmed": false,
+      "production_approved": false
+    },
+    {
+      "id": "INV-PIL-JUR-001",
+      "title": "Belgian Community jurisdiction + controlled pilot envelope gates",
+      "feature_ids": [
+        "SF-JUR-001",
+        "SF-PIL-001"
+      ],
+      "proven_count": 3,
+      "required_count": 3,
+      "complete": true,
+      "missing": [],
+      "patent_granted": false,
+      "novelty_confirmed": false,
+      "production_approved": false
+    },
+    {
+      "id": "INV-TTL-001",
+      "title": "TwinTeach Live teacher-authority co-teaching runtime",
+      "feature_ids": [
+        "SF-TTL-001"
+      ],
+      "proven_count": 4,
+      "required_count": 4,
+      "complete": true,
+      "missing": [],
+      "patent_granted": false,
+      "novelty_confirmed": false,
+      "production_approved": false
+    },
+    {
+      "id": "INV-AFG-001",
+      "title": "ActivityForge constrained generation with validation and no silent overwrite",
+      "feature_ids": [
+        "SF-AFG-001"
+      ],
+      "proven_count": 4,
+      "required_count": 4,
+      "complete": true,
+      "missing": [],
+      "patent_granted": false,
+      "novelty_confirmed": false,
+      "production_approved": false
+    }
+  ],
+  "complete_inventions": 8,
+  "total_inventions": 8,
+  "all_software_proven": true,
+  "legal_novelty_confirmed": false,
+  "patent_granted": false,
+  "filing_authorized": false,
+  "production_approved": false
+}

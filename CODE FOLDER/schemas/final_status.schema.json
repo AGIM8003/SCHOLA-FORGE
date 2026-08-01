@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ScholaForgeSentinelFinalStatus/v1",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "finite_status",
+    "release_authority_status",
+    "production_approved",
+    "pilot_ready"
+  ],
+  "properties": {
+    "schema_id": { "const": "ScholaForgeSentinelFinalStatus/v1" },
+    "finite_status": { "type": "string" },
+    "release_authority_status": { "const": "RELEASE_BLOCKED" },
+    "production_approved": { "const": false },
+    "pilot_ready": { "const": false },
+    "ai_may_assign_final_grade": { "const": false }
+  }
+}

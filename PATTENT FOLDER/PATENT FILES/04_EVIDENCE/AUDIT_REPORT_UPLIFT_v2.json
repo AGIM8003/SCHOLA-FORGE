@@ -1,0 +1,39 @@
+{
+  "audit_id": "SCHOLAFORGE-UPLIFT-AUDIT-002",
+  "method": "BODY_VS_BODY",
+  "current_status": "DISCLOSURE_READY",
+  "filing_status": "FILING_NOT_AUTHORIZED",
+  "reported_runtime_evidence": {
+    "motionclass_conductor": "REPORTED_COMPLETE",
+    "mysaga_attested_delete": "REPORTED_COMPLETE",
+    "tim_lig_evs_spine": "REPORTED_COMPLETE",
+    "twinteach_stop_degrade": "REPORTED_COMPLETE",
+    "constrained_portal": "REPORTED_COMPLETE",
+    "body_proofs": "24_OF_24_REPORTED_GREEN",
+    "validation": "69_PASS_0_FAIL_REPORTED",
+    "organism_demo": "REPORTED_OK_WITH_FILING_FALSE"
+  },
+  "machine_rerun_evidence": {
+    "adversarial_200": "200_PASS_0_FAIL",
+    "technical_effects": "8_PASS_0_FAIL",
+    "runtime_pack": "FROZEN_SEE_RUNTIME_EVIDENCE_PACK",
+    "npm_test_suite": "SEE_VALIDATE_IN_PACK"
+  },
+  "independent_verification": "NOT_CONFIRMED",
+  "reported_maturity": 58,
+  "evidence_based_maturity_estimate": 65,
+  "target_maturity_before_counsel_review": 70,
+  "maturity_note": "Estimate 58+2+3+2 from pack/adversarial/effects. Independent review, inventorship, and counsel still block 70.",
+  "remaining_blockers": [
+    "Independent human verification of evidence pack",
+    "Element-level claim charts incomplete",
+    "Enabling disclosure still outline-level",
+    "Inventorship and ownership not confirmed",
+    "Public-disclosure history not confirmed",
+    "Independent security review incomplete",
+    "Written counsel opinion absent",
+    "Filing authorization absent",
+    "Maturity below 70"
+  ],
+  "auditor_verdict": "P0_P1_DIRECTION_ACCEPTED; P2_MACHINE_EVIDENCE_ADVANCED; EVIDENCE_AND_FILING_GATES_REMAIN_BLOCKED"
+}

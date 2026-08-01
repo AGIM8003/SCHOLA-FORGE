@@ -1,0 +1,255 @@
+{
+  "schema_id": "ScholaForgeSentinelFinalStatus/v1",
+  "version": "15.0.0-CODE-MVP-5",
+  "project": "SCHOLAFORGE",
+  "generated_at_utc": "2026-07-31T19:41:03.125Z",
+  "tip": null,
+  "branch": null,
+  "finite_status": "AGENT_SCOPE_CODE_MVP5_WHOLE_BODY_UPLIFT_EXTERNAL_BLOCKERS_OPEN",
+  "release_authority_status": "RELEASE_BLOCKED",
+  "production_approved": false,
+  "pilot_ready": false,
+  "project_complete": false,
+  "filing_authorized": false,
+  "patent_granted": false,
+  "novelty_confirmed": false,
+  "disclosure_ready": true,
+  "disclosure_id": "SYS-COMBO-001",
+  "method": "BODY_VS_BODY",
+  "publication_hold": "ACTIVE",
+  "ai_may_assign_final_grade": false,
+  "high_impact_ai_approved": false,
+  "agent_scope_complete": true,
+  "gate_matrix": {
+    "schema_id": "ScholaForgeSentinelGateMatrix/v1",
+    "agent_scope_complete": true,
+    "release_authority_status": "RELEASE_BLOCKED",
+    "production_approved": false,
+    "pilot_ready": false,
+    "filing_authorized": false,
+    "patent_granted": false,
+    "agent_gates": {
+      "G_IDENTITY": {
+        "label": "project identity path parity",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_SCHEMA": {
+        "label": "schemas validate",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_NPM": {
+        "label": "npm test suite",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_RETRIEVAL": {
+        "label": "retrieval governance pipeline SF-RGC-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_JURISDICTION": {
+        "label": "jurisdiction profile compiler SF-JUR-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_EVIDENCE_SPINE": {
+        "label": "Evidence Spine shadow mode SF-EVS-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_TEACHER_A1": {
+        "label": "teacher-support A1 thin slice",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_PILOT": {
+        "label": "pilot charter envelope SF-PIL-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_INSIGHT_SHADOW": {
+        "label": "INSIGHT shadow summaries SF-INS-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_ACR_STUB": {
+        "label": "accessibility evidence stub SF-ACR-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_CSE_STUB": {
+        "label": "cybersecurity evidence stub SF-CSE-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_TIM": {
+        "label": "Tutoring Integrity Mode SF-TIM-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_LIG": {
+        "label": "Learning Independence Gate SF-LIG-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_SAGA": {
+        "label": "MySAGA shadow store SF-SAGA-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_RIGHTS": {
+        "label": "Rights navigator SF-RRN-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_ROLLBACK": {
+        "label": "stop-rule rollback drill",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_INVENTION_BENCH": {
+        "label": "invention differentiation benchmark",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_TWINTEACH": {
+        "label": "TwinTeach Live SF-TTL-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_ACTIVITYFORGE": {
+        "label": "ActivityForge SF-AFG-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_CLASSROOM_DEMO": {
+        "label": "classroom integration adversarial demo",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_CONSTITUTION_BODY": {
+        "label": "SYS-COMBO-001 whole-body constitution metabolism",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_MOTIONCLASS": {
+        "label": "MotionClass No-ID SF-MOT-001",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_SAGA_ATTESTED": {
+        "label": "MySAGA attested deletion anti-resurrection",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_PORTAL": {
+        "label": "constrained interoperability portal",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_ASSIST_SPINE": {
+        "label": "TIM-LIG-EVS assistance integrity spine",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_CROSS_ORGAN": {
+        "label": "cross-organ adversarial body suite",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_ADVERSARIAL_200": {
+        "label": "200-case cross-organ adversarial corpus",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_TECH_EFFECTS": {
+        "label": "technical-effect measurement harness",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_POLICY": {
+        "label": "assurance and decision-lock gates",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_CLAIM_LINT": {
+        "label": "false-completion claim ledger",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      },
+      "G_PIPELINE": {
+        "label": "software-only orchestrator pipeline",
+        "status": "PASS",
+        "detail": "MVP-5 whole-body uplift suite"
+      }
+    },
+    "external_gates": {
+      "G_JURISDICTION": {
+        "status": "NOT_DECIDED",
+        "owner": "external"
+      },
+      "G_LEGAL_CONFORMITY": {
+        "status": "HUMAN_REVIEW_REQUIRED",
+        "owner": "human+counsel"
+      },
+      "G_PILOT_CHARTER": {
+        "status": "UNSIGNED",
+        "owner": "external"
+      },
+      "G_ACCESSIBILITY_EVIDENCE": {
+        "status": "NOT_ESTABLISHED",
+        "owner": "external"
+      },
+      "G_SECURITY_ASSURANCE": {
+        "status": "NOT_ESTABLISHED",
+        "owner": "external"
+      },
+      "G_EDUCATIONAL_EVIDENCE": {
+        "status": "NOT_ESTABLISHED",
+        "owner": "external"
+      },
+      "G_PATENT_FILING": {
+        "status": "NOT_AUTHORIZED",
+        "owner": "human+counsel"
+      },
+      "G_NOVELTY": {
+        "status": "NOT_CONFIRMED",
+        "owner": "human+counsel"
+      },
+      "G_PRODUCTION": {
+        "status": "NOT_APPROVED",
+        "owner": "external"
+      },
+      "G_PUBLICATION": {
+        "status": "HOLD_ACTIVE",
+        "owner": "human+counsel"
+      }
+    },
+    "finite_status": "AGENT_SCOPE_CODE_MVP5_WHOLE_BODY_UPLIFT_EXTERNAL_BLOCKERS_OPEN"
+  },
+  "residuals": [
+    "Belgian Community not selected",
+    "legal conformity HUMAN_REVIEW_REQUIRED",
+    "pilot charter unsigned",
+    "accessibility evidence not established",
+    "security assurance not established",
+    "independent educational evidence not established",
+    "patent filing NOT_AUTHORIZED / novelty NOT_CONFIRMED",
+    "production NOT_APPROVED"
+  ],
+  "claim_ledger": {
+    "verdict": "ACCEPT",
+    "denials": []
+  },
+  "evidence_ledger": {
+    "schema_id": "ScholaForgeEvidenceLedger/v1",
+    "length": 1,
+    "chain": {
+      "ok": true,
+      "length": 1
+    },
+    "tip_hash": "ef3169696e040e00c3a91efab3a5cacf27b4d37683fe282741852b98dc626269"
+  }
+}

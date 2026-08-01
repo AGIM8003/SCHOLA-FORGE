@@ -1,0 +1,168 @@
+{
+  "schema_id": "ScholaForgeTechnicalEffectsReport/v1",
+  "disclosure_id": "SYS-COMBO-001",
+  "measured": 8,
+  "passed": 8,
+  "failed": [],
+  "rows": [
+    {
+      "mechanism": "No-ID transformation",
+      "description": "Identity-bearing data rejected",
+      "baseline": {
+        "unauthorized_success": 0,
+        "expected_block": 1
+      },
+      "input": "face field",
+      "expected_result": "IDENTITY_BEARING_FIELD_REJECTED",
+      "actual_result": "IDENTITY_BEARING_FIELD_REJECTED",
+      "ok": true,
+      "latency_ms": 0,
+      "uncertainty": "single-process local measurement; not multi-site field trial",
+      "failure_threshold": "any unexpected allow is failure",
+      "reproducible_command": "npm run measure:effects",
+      "evidence_receipt": true,
+      "filing_authorized": false
+    },
+    {
+      "mechanism": "Activity Conductor degrade",
+      "description": "State degrades under fault",
+      "baseline": {
+        "unauthorized_success": 0,
+        "expected_block": 1
+      },
+      "input": null,
+      "expected_result": "DEGRADED_MODE",
+      "actual_result": "DEGRADED_MODE",
+      "ok": true,
+      "latency_ms": 1,
+      "uncertainty": "single-process local measurement; not multi-site field trial",
+      "failure_threshold": "any unexpected allow is failure",
+      "reproducible_command": "npm run measure:effects",
+      "evidence_receipt": true,
+      "filing_authorized": false
+    },
+    {
+      "mechanism": "TIM→LIG",
+      "description": "Unsupported mastery certifications prevented",
+      "baseline": {
+        "unauthorized_success": 0,
+        "expected_block": 1
+      },
+      "input": null,
+      "expected_result": "mastery_certified=false",
+      "actual_result": false,
+      "ok": true,
+      "latency_ms": 1,
+      "uncertainty": "single-process local measurement; not multi-site field trial",
+      "failure_threshold": "any unexpected allow is failure",
+      "reproducible_command": "npm run measure:effects",
+      "evidence_receipt": true,
+      "filing_authorized": false
+    },
+    {
+      "mechanism": "Shadow-grade gate",
+      "description": "Unauthorized official-grade writes prevented",
+      "baseline": {
+        "unauthorized_success": 0,
+        "expected_block": 1
+      },
+      "input": null,
+      "expected_result": false,
+      "actual_result": false,
+      "ok": true,
+      "latency_ms": 0,
+      "uncertainty": "single-process local measurement; not multi-site field trial",
+      "failure_threshold": "any unexpected allow is failure",
+      "reproducible_command": "npm run measure:effects",
+      "evidence_receipt": true,
+      "filing_authorized": false
+    },
+    {
+      "mechanism": "TwinTeach stop",
+      "description": "Time to deterministic manual state",
+      "baseline": {
+        "unauthorized_success": 0,
+        "expected_block": 1
+      },
+      "input": null,
+      "expected_result": "manual_teaching_available",
+      "actual_result": {
+        "available": true,
+        "elapsed_ms": 0
+      },
+      "ok": true,
+      "latency_ms": 0,
+      "uncertainty": "single-process local measurement; not multi-site field trial",
+      "failure_threshold": "any unexpected allow is failure",
+      "reproducible_command": "npm run measure:effects",
+      "evidence_receipt": true,
+      "filing_authorized": false
+    },
+    {
+      "mechanism": "MySAGA deletion",
+      "description": "Anti-resurrection success",
+      "baseline": {
+        "unauthorized_success": 0,
+        "expected_block": 1
+      },
+      "input": null,
+      "expected_result": "INV-09",
+      "actual_result": "INV-09",
+      "ok": true,
+      "latency_ms": 1,
+      "uncertainty": "single-process local measurement; not multi-site field trial",
+      "failure_threshold": "any unexpected allow is failure",
+      "reproducible_command": "npm run measure:effects",
+      "evidence_receipt": true,
+      "filing_authorized": false
+    },
+    {
+      "mechanism": "Portal",
+      "description": "Unauthorized / cross-tenant blocked",
+      "baseline": {
+        "unauthorized_success": 0,
+        "expected_block": 1
+      },
+      "input": null,
+      "expected_result": "TENANT_BOUNDARY + INV-02",
+      "actual_result": {
+        "cross": "TENANT_BOUNDARY",
+        "grade": "INV-02_SHADOW_GRADE_ONLY"
+      },
+      "ok": true,
+      "latency_ms": 0,
+      "uncertainty": "single-process local measurement; not multi-site field trial",
+      "failure_threshold": "any unexpected allow is failure",
+      "reproducible_command": "npm run measure:effects",
+      "evidence_receipt": true,
+      "filing_authorized": false
+    },
+    {
+      "mechanism": "Jurisdiction lock",
+      "description": "Wrong-profile / missing jurisdiction denied",
+      "baseline": {
+        "unauthorized_success": 0,
+        "expected_block": 1
+      },
+      "input": null,
+      "expected_result": "INV-03",
+      "actual_result": "INV-03_MISSING_JURISDICTION",
+      "ok": true,
+      "latency_ms": 0,
+      "uncertainty": "single-process local measurement; not multi-site field trial",
+      "failure_threshold": "any unexpected allow is failure",
+      "reproducible_command": "npm run measure:effects",
+      "evidence_receipt": true,
+      "filing_authorized": false
+    }
+  ],
+  "note": "Local single-process measurements. Not multi-site field trials. Independent verification still required.",
+  "status_banner": [
+    "DISCLOSURE_READY",
+    "INDEPENDENT_VERIFICATION_INCOMPLETE",
+    "NOVELTY_NOT_CONFIRMED",
+    "FILING_NOT_AUTHORIZED"
+  ],
+  "filing_authorized": false,
+  "measured_at_utc": "2026-07-31T22:25:48.278Z"
+}

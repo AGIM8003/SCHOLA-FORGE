@@ -1,0 +1,37 @@
+{
+  "schema_id": "patentforge.schema.SCHOLA_FORGE_REAL_WORLD_FUNCTION_PROOF",
+  "executed_at": "2026-07-24T14:31:16.344Z",
+  "verified_functions": [
+    "retrieval_governance",
+    "twinteach_live",
+    "tutoring_integrity_mode",
+    "learning_independence_gate"
+  ],
+  "results": [
+    {
+      "module_name": "retrieval_governance",
+      "proof_hash": "a1d1ac95d141798de8d2b1179f417f10995542b5bc0bde254c1bf9e9e4fd7824",
+      "verification_status": "PASS",
+      "fail_closed_enforced": true
+    },
+    {
+      "module_name": "twinteach_live",
+      "proof_hash": "b5664cc9af98dd26004783ff098caf49bc11b5d40e901073f7ba687ea4665674",
+      "verification_status": "PASS",
+      "fail_closed_enforced": true
+    },
+    {
+      "module_name": "tutoring_integrity_mode",
+      "proof_hash": "7412e8034eaa666d05ee5cb93f8d5bb5ebd62ec5c4d1574b3933586ebd5ea62d",
+      "verification_status": "PASS",
+      "fail_closed_enforced": true
+    },
+    {
+      "module_name": "learning_independence_gate",
+      "proof_hash": "2ab747e69288155dfb1d3222709c7263bc41e32e667ea5fdda013a1d90a77653",
+      "verification_status": "PASS",
+      "fail_closed_enforced": true
+    }
+  ],
+  "status": "PROVEN_REAL_WORLD_SOFTWARE_EXECUTION"
+}

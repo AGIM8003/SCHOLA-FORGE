@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ScholaForgeJurisdictionProfile/v1",
+  "type": "object",
+  "required": ["schema_id", "feature_id", "profile_id", "status"],
+  "properties": {
+    "schema_id": { "const": "ScholaForgeJurisdictionProfile/v1" },
+    "feature_id": { "const": "SF-JUR-001" },
+    "profile_id": { "enum": ["BE-FL-EDU", "BE-FR-EDU", "BE-DE-EDU"] },
+    "status": { "enum": ["DRAFT", "SIGNED", "EXPIRED", "SUSPENDED"] }
+  }
+}

@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+jobs:
+  software-gates:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: CODE FOLDER
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate identity + schemas
+        run: npm run validate:identity && npm run validate:schemas
+
+      - name: npm test
+        run: npm test
+
+      - name: Emit Sentinel FINAL_STATUS
+        run: npm run sentinel:status

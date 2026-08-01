@@ -1,0 +1,22 @@
+{
+  "schema_id": "ScholaForgePatentScorecard/v1",
+  "version": "15.0.0-CODE-MVP-5",
+  "software_features_proven": 8,
+  "total_tracked_inventions": 8,
+  "all_software_proven": true,
+  "npm_differentiation_test": "PASS",
+  "method": "BODY_VS_BODY",
+  "canonical_disclosure": "SYS-COMBO-001",
+  "disclosure_status": "DISCLOSURE_READY",
+  "architecture_body_score": 87.5,
+  "deployment_adjusted_body_score": 82.9,
+  "implementation_maturity": 58,
+  "whole_body_filing_grade": 64,
+  "feature_sliced_patent_tray": "REJECTED",
+  "patent_granted": false,
+  "novelty_confirmed": false,
+  "filing_authorized": false,
+  "production_approved": false,
+  "note": "Organ software proofs support one-body disclosure SYS-COMBO-001; they do not authorize filing or claim novelty. Feature-sliced patent tray REJECTED.",
+  "generated_at_utc": "2026-07-31T19:41:03.854Z"
+}

@@ -1,0 +1,72 @@
+{
+  "artifact": "SCHOLAFORGE_WHOLE_BODY_INVENTION_UPLIFT_SPEC",
+  "version": "1.0",
+  "method": "BODY_VS_BODY",
+  "seed": 17,
+  "status": "DISCLOSURE_READY",
+  "novelty_status": "NOVELTY_NOT_CONFIRMED",
+  "filing_status": "FILING_NOT_AUTHORIZED",
+  "canonical_disclosure": "SYS-COMBO-001",
+  "changes": [
+    {
+      "id": "CHG-001",
+      "change": "Rejected feature-sliced invention analysis as the primary method",
+      "effect": "ScholaForge is evaluated as one ordered technical organism"
+    },
+    {
+      "id": "CHG-002",
+      "change": "Separated Architecture Body Score from Deployment-Adjusted Body Score",
+      "effect": "Corrected the scorecard arithmetic and removed maturity ambiguity"
+    },
+    {
+      "id": "CHG-003",
+      "change": "Established a canonical fourteen-stage organism metabolism",
+      "effect": "Connected curriculum, authority, assistance, orchestration, verification, evidence, memory, interoperability, degradation, and recovery"
+    },
+    {
+      "id": "CHG-004",
+      "change": "Defined fourteen system-wide constitutional invariants",
+      "effect": "Converted human-first principles into enforceable runtime constraints"
+    },
+    {
+      "id": "CHG-005",
+      "change": "Integrated MotionClass and No-ID sensing into the constitutional plane",
+      "effect": "Strengthened technical character through signal handling, state integrity, fault recovery, and privacy controls"
+    },
+    {
+      "id": "CHG-006",
+      "change": "Connected TIM, LIG, shadow grading, and Evidence Spine",
+      "effect": "Created one assistance-to-independent-mastery integrity path"
+    },
+    {
+      "id": "CHG-007",
+      "change": "Expanded MySAGA into attested distributed retention and deletion",
+      "effect": "Added anti-resurrection, replica acknowledgement, index verification, and deletion receipts"
+    },
+    {
+      "id": "CHG-008",
+      "change": "Connected TwinTeach disablement to deterministic degradation",
+      "effect": "Preserved local teacher control during model, cloud, or network failure"
+    },
+    {
+      "id": "CHG-009",
+      "change": "Added constrained interoperability portal architecture",
+      "effect": "Prevented external platforms from bypassing the constitutional control plane"
+    },
+    {
+      "id": "CHG-010",
+      "change": "Replaced isolated adversarial testing with cross-organ testing",
+      "effect": "Required at least 200 whole-body failure and attack cases"
+    },
+    {
+      "id": "CHG-011",
+      "change": "Created a one-body disclosure architecture",
+      "effect": "Supports one principal system disclosure with dependent embodiments"
+    },
+    {
+      "id": "CHG-012",
+      "change": "Preserved the educational and product roadmap",
+      "effect": "Patent strategy now supports rather than fragments ScholaForge"
+    }
+  ]
+}

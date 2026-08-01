@@ -1,0 +1,85 @@
+{
+  "audit_id": "SCHOLAFORGE-BODY-AUDIT-001",
+  "method": "BODY_VS_BODY",
+  "audit_date_context": "2026-07-20",
+  "whole_body_filing_grade": 64,
+  "implementation_maturity": 55,
+  "bodies_fully_swallowing_scholaforge": 0,
+  "feature_sliced_patent_tray": "REJECTED",
+  "one_body_disclosure": "ACCEPTABLE",
+  "immediate_filing": "NO",
+  "current_status": [
+    "DISCLOSURE_READY",
+    "NOVELTY_NOT_CONFIRMED",
+    "FILING_NOT_AUTHORIZED"
+  ],
+  "scorecard_correction": {
+    "issue": "Displayed overall values previously mixed maturity; ABS/DABS now separated",
+    "architecture_body_score_columns": [
+      "coherence",
+      "authority",
+      "governance",
+      "jurisdiction",
+      "privacy",
+      "learning_integrity"
+    ],
+    "deployment_adjusted_score_adds": "maturity",
+    "scholaforge_architecture_body_score": 87.5,
+    "scholaforge_deployment_adjusted_body_score": 82.9
+  },
+  "highest_body_threats": [
+    {
+      "body": "Smartschool",
+      "threat": "Closest Belgian regional organism",
+      "supplied_distinctiveness": 42
+    },
+    {
+      "body": "Colleague-class lifecycle platform",
+      "threat": "Closest mature institutional lifecycle organism",
+      "supplied_distinctiveness": 48
+    },
+    {
+      "body": "String, anAIza, PupilTree-class school OS",
+      "threat": "Broad school-operating-system positioning",
+      "supplied_distinctiveness": 55
+    },
+    {
+      "body": "Google Classroom plus Gemini",
+      "threat": "Mature ecosystem and integration body",
+      "supplied_distinctiveness_range": "58-60"
+    },
+    {
+      "body": "Microsoft Copilot Education",
+      "threat": "Mature ecosystem and institutional deployment body",
+      "supplied_distinctiveness_range": "58-60"
+    },
+    {
+      "body": "Khanmigo, SchoolAI, MagicSchool-class",
+      "threat": "Partial education-AI organisms",
+      "supplied_distinctiveness_range": "52-72"
+    }
+  ],
+  "canonical_difference": "Community-law-locked, human-first, anti-autonomous, shadow-grade-controlled, fail-closed education operating organism",
+  "critical_uplifts": [
+    "Lock one constitutional control plane",
+    "Integrate MotionClass with Activity Conductor and No-ID processing",
+    "Wire TIM to LIG and Evidence Spine",
+    "Implement attested MySAGA deletion and anti-resurrection",
+    "Wire TwinTeach local disablement to deterministic degraded operation",
+    "Constrain portal interoperability through signed capability grants",
+    "Prove cross-organ technical effects",
+    "Complete body-level comparator and claim charts",
+    "Run at least 200 adversarial whole-body cases"
+  ],
+  "blockers": [
+    "Novelty not independently confirmed",
+    "Inventive step not professionally cleared",
+    "Implementation maturity below filing-review target",
+    "Whole-body technical-effect evidence incomplete",
+    "Body-level prior-art charts incomplete",
+    "Public-disclosure history not confirmed",
+    "Inventor contribution records not confirmed",
+    "Counsel filing authorization absent"
+  ],
+  "final_verdict": "CONTINUE WHOLE-BODY DISCLOSURE UPLIFT; DO NOT FILE YET"
+}

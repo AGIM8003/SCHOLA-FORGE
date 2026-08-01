@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ScholaForgeInsightShadowSummary/v1",
+  "type": "object",
+  "required": ["schema_id", "feature_id", "mode", "ai_may_assign_final_grade"],
+  "properties": {
+    "schema_id": { "const": "ScholaForgeInsightShadowSummary/v1" },
+    "feature_id": { "const": "SF-INS-001" },
+    "mode": { "const": "SHADOW" },
+    "official_grade": { "type": "null" },
+    "ai_may_assign_final_grade": { "const": false }
+  }
+}

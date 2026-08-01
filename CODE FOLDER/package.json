@@ -1,0 +1,28 @@
+{
+  "name": "scholaforge",
+  "version": "15.0.0-CODE-MVP-5",
+  "description": "ScholaForge whole-body organism MVP — SYS-COMBO-001 disclosure-ready; FILING_NOT_AUTHORIZED; novelty NOT confirmed.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/retrieval_governance.test.js tests/policy_gates.test.js tests/sentinel_mvp.test.js tests/identity_path_parity.test.js tests/pipeline.test.js tests/jurisdiction_profile.test.js tests/evidence_spine.test.js tests/teacher_support.test.js tests/pilot_charter.test.js tests/insight_shadow.test.js tests/assurance_stubs.test.js tests/tutoring_integrity.test.js tests/independence_gate.test.js tests/mysaga_store.test.js tests/identity_rights_rollback.test.js tests/invention_differentiation.test.js tests/twinteach_live.test.js tests/activityforge.test.js tests/classroom_integration.test.js tests/constitution_body.test.js tests/motionclass_noid.test.js tests/mysaga_attested.test.js tests/portal_exchange.test.js tests/cross_organ_adversarial.test.js tests/adversarial_200.test.js",
+    "pipeline": "node src/orchestrator/run_pipeline_cli.js",
+    "demo:classroom": "node -e \"import('./src/demo/index.js').then(m=>console.log(JSON.stringify(m.runClassroomIntegrationDemo(),null,2)))\"",
+    "demo:organism": "node -e \"import('./src/constitution/index.js').then(m=>console.log(JSON.stringify(m.runOrganismBody(),null,2)))\"",
+    "adversarial:200": "node scripts/run_adversarial_200.js",
+    "measure:effects": "node scripts/measure_technical_effects.js",
+    "evidence:freeze": "node scripts/freeze_runtime_evidence.js",
+    "evidence:receipt": "node scripts/emit_verification_receipt.js",
+    "uplift:p2": "npm run adversarial:200 && npm run measure:effects && npm run evidence:freeze && npm run evidence:receipt",
+    "sentinel:status": "node scripts/emit_final_status.js",
+    "invention:evidence": "node scripts/emit_invention_evidence.js",
+    "validate:identity": "node scripts/validate_identity.js",
+    "validate:schemas": "node scripts/validate_schemas.js",
+    "validate": "npm run validate:identity && npm run validate:schemas && npm test && npm run sentinel:status && npm run invention:evidence"
+  },
+  "keywords": ["scholaforge", "education", "whole-body", "SYS-COMBO-001", "belgium-eu"],
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

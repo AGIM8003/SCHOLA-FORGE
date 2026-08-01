@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ScholaForgeEvidencePacket/v1",
+  "type": "object",
+  "required": ["schema_id", "packet_id", "crag_state", "assurance_class"],
+  "properties": {
+    "schema_id": { "const": "ScholaForgeEvidencePacket/v1" },
+    "packet_id": { "type": "string" },
+    "crag_state": { "type": "string" },
+    "assurance_class": { "type": "string" },
+    "selected_segments": { "type": "array" },
+    "rejected_segments": { "type": "array" },
+    "offline_degraded": { "type": "boolean" }
+  }
+}
