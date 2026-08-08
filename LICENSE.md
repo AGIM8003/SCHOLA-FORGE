@@ -1,15 +1,19 @@
-# Proprietary License — Pre-Filing Confidential
+# Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 
-Copyright (c) 2024–2026 Haxhijaha, Agim. All rights reserved.
+Copyright (c) 2026 Agim Haxhijaha
 
-This work is proprietary and confidential. No part of this work may be
-reproduced, distributed, or transmitted in any form without the prior
-written permission of the copyright holder.
+Full legal text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
-This notice applies to all files in this repository including source code,
-documentation, blueprints, patent drafts, test suites, and evidence packs.
+You are free to share (copy and redistribute) this material in any medium or format under the following terms:
 
-**Patent pending.** Unauthorized use, reproduction, or distribution may
-constitute patent infringement.
+**Attribution** — You must give appropriate credit, provide a link to the licence and indicate if changes were made.
 
-ORCID: 0009-0002-3234-7765
+**NonCommercial** — You may not use the material for commercial purposes.
+
+**NoDerivatives** — If you remix, transform or build upon the material, you may not distribute the modified material.
+
+**No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the licence permits.
+
+This licence applies to all files in this repository including research blueprints, source code, schemas, tests, scripts, evidence files and documentation.
+
+For commercial licensing enquiries, contact agim@vertogroup.ai.

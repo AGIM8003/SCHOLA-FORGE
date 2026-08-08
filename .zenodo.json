@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "ScholaForge: Approval-Oriented, Human-First, Evidence-Carrying Education Operating System",
+    "upload_type": "software",
+    "description": "<p>An education platform architecture that formalises the governance of curriculum decisions, resource allocations, assessment methods and student progression paths within a single evidence-carrying framework. The system operates across four interdependent planes: human development, teaching and learning, whole-school services, and trust and sovereignty.</p><p>The architecture is designed for Belgian and European Union schools with conformance targets for the EU AI Act, GDPR, Belgian community education laws, the UN Convention on the Rights of the Child and the European Accessibility Act.</p><p>Pre-release research software. Not deployed in production. Not independently reproduced or peer reviewed.</p>",
+    "creators": [
+      {
+        "name": "Haxhijaha, Agim",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0002-3234-7765"
+      }
+    ],
+    "keywords": [
+      "education platform",
+      "education governance",
+      "explainable decisions",
+      "evidence-carrying architecture",
+      "equitable benefit distribution",
+      "human-first design",
+      "EU AI Act",
+      "Belgian education",
+      "auditable outcomes",
+      "research software"
+    ],
+    "license": "other-open",
+    "access_right": "open",
+    "version": "15.0",
+    "language": "eng",
+    "notes": "Licence: CC BY-NC-ND 4.0. Pre-release research software. This repository contains a target specification and pre-release implementation. It has not been deployed in production, independently reproduced or peer reviewed. Not safety certified. Conformity with applicable regulations has not been independently assessed.",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/AGIM8003/SCHOLA-FORGE",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ]
+  }
+}

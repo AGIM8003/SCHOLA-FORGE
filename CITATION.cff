@@ -1,13 +1,27 @@
 cff-version: 1.2.0
-title: "ScholaForge — Unified Explainable Benefit-for-All Education Platform"
-message: "If you use this work, please cite it as below."
+message: "If you use this software, please cite the archived release."
+title: "ScholaForge: Approval-Oriented, Human-First, Evidence-Carrying Education Operating System"
 type: software
+version: "15.0"
+license: CC-BY-NC-ND-4.0
+url: "https://github.com/AGIM8003/SCHOLA-FORGE"
+repository-code: "https://github.com/AGIM8003/SCHOLA-FORGE"
+# doi: "ADD AFTER ZENODO PUBLISH"
 authors:
-  - family-names: Haxhijaha
-    given-names: Agim
+  - family-names: "Haxhijaha"
+    given-names: "Agim"
     orcid: "https://orcid.org/0009-0002-3234-7765"
-version: "14.0"
-date-released: "2026-07-23"
-license: "LicenseRef-Proprietary"
-doi: "PENDING"
-abstract: "An AI-powered education platform designed for equitable, explainable, and universally beneficial learning."
+    affiliation: "Independent Researcher"
+date-released: "2026-08-08"
+keywords:
+  - "education platform"
+  - "education governance"
+  - "explainable decisions"
+  - "evidence-carrying architecture"
+  - "equitable benefit distribution"
+  - "human-first design"
+  - "EU AI Act"
+  - "Belgian education"
+  - "auditable outcomes"
+  - "research software"
+abstract: "An education platform architecture that formalises the governance of curriculum decisions, resource allocations, assessment methods and student progression paths within a single evidence-carrying framework designed for Belgian and European Union schools."

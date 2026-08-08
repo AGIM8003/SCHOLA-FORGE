@@ -1,33 +1,21 @@
-# SCHOLA-FORGE — root ignore
-
-**/node_modules/
-**/.pytest_cache/
-**/__pycache__/
-**/*.py[cod]
-**/.mypy_cache/
-
-**/*.db
-**/*.db-journal
-**/.env
-**/.env.*
-!**/.env.example
-**/secrets/
-**/*.pem
-**/*.key
-
-**/.backup/
-**/*~
-**/*.swp
-**/.DS_Store
+# Dependencies, build artefacts, OS files
+node_modules/
+*.log
+.DS_Store
 Thumbs.db
 Desktop.ini
 
-**/npm-debug.log*
-**/yarn-error.log*
-**/coverage/
-**/.nyc_output/
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Local blueprint edit backups
-SCHOLAFORGE.md.bak-*
-_*.ps1
-_PART_IA_*.md
+# Environment and secrets
+.env
+.env.*
+
+# Coverage and build output
+coverage/
+dist/
+build/
