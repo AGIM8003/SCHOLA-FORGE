@@ -6,7 +6,7 @@ version: "15.0"
 license: CC-BY-NC-ND-4.0
 url: "https://github.com/AGIM8003/SCHOLA-FORGE"
 repository-code: "https://github.com/AGIM8003/SCHOLA-FORGE"
-# doi: "ADD AFTER ZENODO PUBLISH"
+doi: "10.5281/zenodo.21855397"
 authors:
   - family-names: "Haxhijaha"
     given-names: "Agim"
