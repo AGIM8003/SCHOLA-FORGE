@@ -1,54 +1,38 @@
 # ScholaForge
 
-ScholaForge is a school operating system designed for Belgian and European schools. It handles curriculum, assessment, resource management and student progression — and makes every decision transparent, fair and traceable for students, teachers, parents and administrators.
+ScholaForge is a complete school operating system that puts transparency and fairness at the centre of every decision made about students, teachers and resources.
 
-## The Problem
+## Why ScholaForge Exists
 
-Schools run on dozens of disconnected tools. Decisions about students — grading, progression, resource allocation, support — happen without clear audit trails. Parents cannot see why a decision was made. Teachers carry administrative burdens that take time away from teaching. When AI enters the classroom, there are no safeguards to prevent it from overstepping.
+Schools today make thousands of decisions — about grading, student progression, resource allocation, special support, discipline and curriculum. Most of these decisions happen behind closed doors. Parents don't know why their child was placed in a certain track. Teachers spend more time on administration than on teaching. And as AI enters the classroom, nobody is making sure it stays within proper boundaries.
 
-## What ScholaForge Does
+ScholaForge changes this. Every decision the system makes is recorded with a clear reason, the policy it follows and the evidence behind it. Anyone who is affected by a decision can see exactly why it was made.
 
-ScholaForge brings all school operations into one system with built-in rules:
+## What It Does
 
-- **Every decision is explainable.** When a student is placed, graded, supported or flagged, the system records why, by whom, under what policy and with what evidence.
-- **Teachers stay in charge.** AI can assist during lessons (TwinTeach Live), but cannot grade, expel, admit or change policy. A human must approve every consequential action.
-- **Students own their learning story.** MySAGA is a private, portable portfolio that follows the learner — not the institution.
-- **Movement counts.** MotionClass integrates physical activity into the curriculum, tracked without linking to personal identity.
-- **Works offline.** Schools in low-connectivity areas run a local node that synchronises when connection returns.
-- **Privacy by design.** No personal data leaves the school without explicit consent. The No-ID Motion Layer tracks participation without identifying individuals.
+**For Students** — A private, portable learning portfolio (MySAGA) that belongs to the student, not the school. It follows the learner throughout their education and records achievements, assessments and growth without exposing personal data.
 
-## Who It's For
+**For Teachers** — A system where AI assists but never decides. Teachers stay in full control. AI can suggest, draft or support during a lesson, but it cannot grade, expel, admit or override a teacher's judgement. Every consequential action requires human approval.
 
-- Schools in Belgium (Dutch, French and German-speaking communities)
-- Education authorities evaluating transparent governance platforms
-- Researchers studying equitable decision-making in education
+**For Parents** — Full visibility into why decisions were made about their child. No more black boxes. Every grade, placement and support decision comes with an explanation.
 
-## Structure
+**For Schools** — One platform for curriculum, assessment, attendance, scheduling, administration, finance and governance. Built to comply with Belgian education regulations across all three language communities (Dutch, French and German) and aligned with EU requirements.
 
-| Folder | Contents |
-|--------|----------|
-| `CODE FOLDER/src/` | 26 modules covering retrieval, policy, evidence, identity, tutoring, assessment and more |
-| `CODE FOLDER/tests/` | 25 test files with 200 adversarial scenarios |
-| `CODE FOLDER/schemas/` | JSON validation schemas |
-| `SCHOLAFORGE.md` | Full system blueprint (v15.0) |
+**For Offline Environments** — Schools in areas with poor internet connectivity run a local node that works fully offline and synchronises when a connection becomes available.
 
-## Quick Start
+## Privacy and Safety
 
-```bash
-git clone https://github.com/AGIM8003/SCHOLA-FORGE.git
-cd SCHOLA-FORGE/CODE\ FOLDER
-npm test
-```
+ScholaForge is designed around privacy from the ground up. No personal data leaves the school without explicit consent. Physical activity tracking works without identifying individual students. AI models are governed by strict policy gates that prevent overreach.
 
 ## Current Status
 
-This is pre-release research software. It runs on test data only and has not been deployed in a real school. It has not been independently audited, peer reviewed or certified for production use.
+ScholaForge is pre-release research software. It has been designed and tested with simulated data but has not yet been deployed in a real school environment.
 
 ## Licence
 
 CC BY-NC-ND 4.0 — see [LICENSE.md](LICENSE.md).
 
-Commercial use is not permitted. For commercial licensing, contact agim@vertogroup.ai.
+For commercial licensing, contact agim@vertogroup.ai.
 
 ## Author
 
