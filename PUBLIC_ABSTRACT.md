@@ -8,19 +8,21 @@
 
 ---
 
-Education systems require transparent governance of curriculum decisions, resource allocations, assessment methods and progression paths. Current platforms typically address individual subsystems without providing a unified evidence trail that links decisions to their rationale and stakeholder impact across all domains.
+Schools make thousands of decisions every day about students, teachers and resources. Most of these decisions are not transparent. Parents cannot see why their child was placed in a certain track. Teachers spend more time on administration than on teaching. There is no single system that ties curriculum, assessment, attendance, scheduling and governance together while keeping every decision traceable and fair.
 
-ScholaForge is an education platform architecture that formalises these governance requirements within a single evidence-carrying framework. The system operates across four interdependent planes — human development, teaching and learning, whole-school services, and trust and sovereignty — ensuring that every decision affecting a learner, educator or institution passes through an explainable governance pipeline. The architecture introduces mechanisms including MySAGA (longitudinal learner portfolios), TwinTeach Live (co-teaching under human-authority boundaries), MotionClass (curriculum-linked physical movement), Evidence Spine (cryptographic decision audit chain) and a Benefit Threshold Gate that prevents deployment unless measurable benefit to all stakeholder groups is demonstrated.
+ScholaForge is a school operating system that solves this problem. It covers curriculum management, assessment, resource allocation, student progression, attendance, scheduling, administration, finance and governance in one platform. Every decision the system makes is recorded with a clear reason, the policy it follows and the evidence behind it. Anyone affected by a decision can see exactly why it was made.
 
-The implementation consists of 26 modular JavaScript source directories with JSON schemas and a test suite of 25 test files including 200 adversarial attack scenarios. All test paths executed without error under the pre-release test data.
+The system includes mechanisms for private portable learner portfolios (MySAGA), co-teaching support under teacher authority (TwinTeach Live), curriculum-linked physical movement (MotionClass), cryptographic decision audit trails (Evidence Spine) and a safeguard that prevents deployment unless measurable benefit to all participants is demonstrated.
 
-This software is at pre-release stage. It operates on test data only. It has not been deployed in production, independently reproduced, peer reviewed or safety certified. Conformity with the EU AI Act, GDPR and Belgian community education laws has not been independently assessed.
+Designed for Belgian schools across all three language communities (Dutch, French and German) and aligned with European Union requirements.
 
-The source code, research blueprints and evidence files are publicly available at https://github.com/AGIM8003/SCHOLA-FORGE under the CC BY-NC-ND 4.0 licence.
+This software is at pre-release stage. It operates on test data only. It has not been deployed in production, independently reproduced, peer reviewed or safety certified.
+
+The source code and research blueprints are publicly available at https://github.com/AGIM8003/SCHOLA-FORGE under the CC BY-NC-ND 4.0 licence.
 
 ---
 
-**Keywords:** education platform, education governance, explainable decisions, evidence-carrying architecture, equitable benefit distribution, human-first design, EU AI Act, Belgian education, auditable outcomes, research software
+**Keywords:** education platform, education governance, school operating system, explainable decisions, Belgian education, auditable outcomes, research software
 
 **Licence:** CC BY-NC-ND 4.0
 **Repository:** https://github.com/AGIM8003/SCHOLA-FORGE

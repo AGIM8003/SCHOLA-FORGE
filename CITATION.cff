@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the archived release."
-title: "ScholaForge: Approval-Oriented, Human-First, Evidence-Carrying Education Operating System"
+title: "ScholaForge"
 type: software
 version: "15.0"
 license: CC-BY-NC-ND-4.0
@@ -16,12 +16,9 @@ date-released: "2026-08-08"
 keywords:
   - "education platform"
   - "education governance"
+  - "school operating system"
   - "explainable decisions"
-  - "evidence-carrying architecture"
-  - "equitable benefit distribution"
-  - "human-first design"
-  - "EU AI Act"
   - "Belgian education"
   - "auditable outcomes"
   - "research software"
-abstract: "An education platform architecture that formalises the governance of curriculum decisions, resource allocations, assessment methods and student progression paths within a single evidence-carrying framework designed for Belgian and European Union schools."
+abstract: "A school operating system that puts transparency and fairness at the centre of every decision made about students, teachers and resources."

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "ScholaForge: Approval-Oriented, Human-First, Evidence-Carrying Education Operating System",
+    "title": "ScholaForge",
     "upload_type": "software",
-    "description": "<p>An education platform architecture that formalises the governance of curriculum decisions, resource allocations, assessment methods and student progression paths within a single evidence-carrying framework. The system operates across four interdependent planes: human development, teaching and learning, whole-school services, and trust and sovereignty.</p><p>The architecture is designed for Belgian and European Union schools with conformance targets for the EU AI Act, GDPR, Belgian community education laws, the UN Convention on the Rights of the Child and the European Accessibility Act.</p><p>Pre-release research software. Not deployed in production. Not independently reproduced or peer reviewed.</p>",
+    "description": "<p>A school operating system that puts transparency and fairness at the centre of every decision made about students, teachers and resources. ScholaForge handles curriculum, assessment, resource management and student progression, and makes every decision explainable, auditable and traceable.</p><p>Designed for Belgian and European Union schools, covering all three language communities (Dutch, French and German).</p><p>Pre-release research software. Not deployed in production. Not independently reproduced or peer reviewed.</p>",
     "creators": [
       {
         "name": "Haxhijaha, Agim",
@@ -13,11 +13,8 @@
     "keywords": [
       "education platform",
       "education governance",
+      "school operating system",
       "explainable decisions",
-      "evidence-carrying architecture",
-      "equitable benefit distribution",
-      "human-first design",
-      "EU AI Act",
       "Belgian education",
       "auditable outcomes",
       "research software"
@@ -26,7 +23,7 @@
     "access_right": "open",
     "version": "15.0",
     "language": "eng",
-    "notes": "Licence: CC BY-NC-ND 4.0. Pre-release research software. This repository contains a target specification and pre-release implementation. It has not been deployed in production, independently reproduced or peer reviewed. Not safety certified. Conformity with applicable regulations has not been independently assessed.",
+    "notes": "Licence: CC BY-NC-ND 4.0. Pre-release research software. Not deployed in production, independently reproduced or peer reviewed.",
     "related_identifiers": [
       {
         "identifier": "https://github.com/AGIM8003/SCHOLA-FORGE",

@@ -2,7 +2,7 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "ScholaForge",
-  "description": "An education platform architecture that formalises the governance of curriculum decisions, resource allocations, assessment methods and student progression paths within a single evidence-carrying framework designed for Belgian and European Union schools.",
+  "description": "A school operating system that puts transparency and fairness at the centre of every decision made about students, teachers and resources. Designed for Belgian and European Union schools.",
   "version": "15.0",
   "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
   "codeRepository": "https://github.com/AGIM8003/SCHOLA-FORGE",
@@ -31,11 +31,8 @@
   "keywords": [
     "education platform",
     "education governance",
+    "school operating system",
     "explainable decisions",
-    "evidence-carrying architecture",
-    "equitable benefit distribution",
-    "human-first design",
-    "EU AI Act",
     "Belgian education",
     "auditable outcomes",
     "research software"
