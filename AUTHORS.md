@@ -21,10 +21,6 @@ CRediT roles:
 - Supervision
 - Project administration
 
-## Contributors
-
-No additional contributors at this time.
-
 ## Acknowledgements
 
 No external funding was received for this project.
